@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-openiban",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OpenIBAN MCP — validate an IBAN's checksum + bank code and resolve the",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-openiban": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "openiban"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-openiban"
+    "url": "git+https://github.com/pipeworx-io/mcp-openiban.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-0b76513f54061bd348380debe59ce5867858c4d7e48f8d393e4fb04f07c0c0d4",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
