@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-openiban",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "OpenIBAN MCP — validate an IBAN's checksum + bank code and resolve the bank name / BIC / city. Keyless wrapper around https://openiban.com.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "openiban",
     "gatewaySlug": "openiban",
-    "sourceHash": "v1-2bfdac1ab7f29713912376997d17614a46d2974b6155643f1186a791fd7d5b5d",
-    "sourceCommit": "b2c4383545bb35171d0ada2beb1c9c7168ea175e"
+    "sourceHash": "v1-e14f70f5b4275185353fad811ec096624015b60343f8412d98cd65f6095dcf0e",
+    "sourceCommit": "243a06a6ca2d3b6075325f3b66a1468d0a2eb603"
   }
 }
